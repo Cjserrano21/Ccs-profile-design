@@ -1,0 +1,53 @@
+@font-face {
+    font-family: Gasalt-Black ;
+    src: url(/fonts/Gasalt-Black.ttf);
+}
+
+body{
+    font-family: Arial,Helvetica,sans-serif;
+    background-color: lightgray;
+    margin: 100px;
+}
+.container{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100;
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0,0,0,black;
+}
+.profile-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    border-radius: 100px;
+    text-align: center;
+}
+.name{
+    font-family: Gasalt-Black;
+    text-transform: uppercase;
+    text-align: center;
+}
+.bio{
+    text-align: center;
+}
+.social-link{
+    margin: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: blue;
+    text-decoration: none;
+}
+.social-link:hover{
+    margin: 200px;
+    color: white;
+    background-color: #33BEFF;
+    border-radius: 50px;
+    
+}
+.social-icon{
+    width: 15px;
+}
